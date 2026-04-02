@@ -8,10 +8,10 @@
     "esModuleInterop": false,
     "allowArbitraryExtensions": true,
     "allowImportingTsExtensions": true,
-    "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
+    "moduleResolution": "bundler",
 
     /* Linting */
     "strict": true,
@@ -19,6 +19,5 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": ["src"]
 }
